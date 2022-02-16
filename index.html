@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Logo-Pokebola-Pokémon-PNG.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>PokeAPI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <h3>digite o nome de um pokemon em inglês e veja suas informações</h3>
+        <div class="alinhamento">
+            <div id="pesquisa">
+                <input type="text" id="nome_pokemon">
+                <button onclick="buscarPokemon()" class="btn">
+                    <img src="188918.png" class="pokeBall">
+                </button>
+            </div>
+
+            <div class="pokedex">
+                <div class="pokemon">
+                    <img width="220px" id="aparenciaPokemon" src="" alt="">
+                </div>
+                <div class="habilidades">
+                    <h3>Nome:</h3>
+                    <div id="nome"></div>
+                    <h3>Tipo:</h3>
+                    <div id="tipo"></div>
+                    <h3>Habilidades:</h3>
+                    <div id="habilidades"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
