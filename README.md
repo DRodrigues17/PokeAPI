@@ -7,8 +7,8 @@ Essa é minha segunda experiência com consulta a APIs com JS puro, onde eu cons
 
 Pois a api foi feita por um time do exterior, provavelmente americano, e como é uma api simples e de consulta, n teria por que incrementar recursos de tradução.
 
-link do site 
+* documentação da API https://pokeapi.co
 
-https://poke-api-daniel.netlify.app
+* link do site https://poke-api-daniel.netlify.app
 
 ![poke](https://user-images.githubusercontent.com/91800053/187731537-222c1192-8433-42e3-acaf-1040cc620572.gif)
